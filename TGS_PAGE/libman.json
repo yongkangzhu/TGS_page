@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap-table@1.16.0",
+      "destination": "wwwroot/bootstrap-table/",
+      "files": [
+        "bootstrap-table.min.js",
+        "bootstrap-table.css",
+        "themes/bulma/bootstrap-table-bulma.css",
+        "themes/bulma/bootstrap-table-bulma.js",
+        "themes/bulma/bootstrap-table-bulma.min.css",
+        "themes/bulma/bootstrap-table-bulma.min.js",
+        "themes/foundation/bootstrap-table-foundation.css",
+        "themes/foundation/bootstrap-table-foundation.js",
+        "themes/foundation/bootstrap-table-foundation.min.css",
+        "themes/foundation/bootstrap-table-foundation.min.js",
+        "themes/materialize/bootstrap-table-materialize.css",
+        "themes/materialize/bootstrap-table-materialize.js",
+        "themes/materialize/bootstrap-table-materialize.min.css",
+        "themes/materialize/bootstrap-table-materialize.min.js",
+        "themes/semantic/bootstrap-table-semantic.css",
+        "themes/semantic/bootstrap-table-semantic.js",
+        "themes/semantic/bootstrap-table-semantic.min.css",
+        "themes/semantic/bootstrap-table-semantic.min.js"
+      ]
+    }
+  ]
+}

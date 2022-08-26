@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "IP 站點对应表";
+}
+
+    <div style="position: relative">
+        @*<div style="background-color:transparent;text-align:center">
+            <h1 style="margin-bottom: 0">TGS IP-站點 对应表</h1>
+        </div>*@
+
+        <div class="text-center">
+            <table data-toggle="table"
+                   data-pagination="true"
+                   data-search="true"
+                   data-url="api/tgsinfo/all"
+                   id="tgstb">
+                <thead>
+                    <tr>
+                        <th data-field="server_ip">服務器地址</th>
+                        <th data-field="server_name">服务节点</th>
+                        <th data-sortable="true" data-field="ip">IP 地址</th>
+                        <th data-sortable="true" data-field="device_id">設備編號</th>
+                        <th data-field="driver_name">設備類型</th>
+                        <th data-field="terminal_name">站點名稱</th>
+                        @*<th data-field="tgsip">TGS 主機IP</th>*@
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+
